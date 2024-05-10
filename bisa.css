@@ -384,6 +384,58 @@ body {
 
 /* Media Queries */
 
+/* About section */
+.about {
+  padding: 6rem 7% 1.4rem; /* Padding to align with other sections */
+  background-color: var(--bg); /* Background color consistent with the rest of the website */
+  color: black; /* Text color for contrast against background */
+  text-align: center; /* Center the text for a cleaner look */
+}
+
+.about h2 {
+  font-size: 2.6rem; /* Header font size */
+  margin-bottom: 2rem; /* Space below the header */
+}
+
+.about h2 span {
+  color: var(--primary); /* Color for highlighted text */
+}
+
+.about p {
+  font-size: 1.6rem; /* Font size for paragraphs */
+  line-height: 1.5; /* Line spacing for better readability */
+  margin-bottom: 1.5rem; /* Space between paragraphs */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about {
+    padding: 4rem 5%; /* Reduce padding on smaller screens */
+  }
+
+  .about h2 {
+    font-size: 2.2rem; /* Reduce font size of header */
+  }
+
+  .about p {
+    font-size: 1.4rem; /* Reduce font size for paragraphs */
+  }
+}
+
+@media (max-width: 450px) {
+  .about {
+    padding: 3rem 3%; /* Further reduce padding on mobile devices */
+  }
+
+  .about h2 {
+    font-size: 2rem; /* Further reduce header font size */
+  }
+
+  .about p {
+    font-size: 1.2rem; /* Further reduce paragraph font size */
+  }
+}
+
 /* Laptop */
 @media (max-width: 1366px) {
   html {
