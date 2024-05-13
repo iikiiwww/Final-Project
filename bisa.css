@@ -37,7 +37,55 @@ body {
   right: 0;
   z-index: 9999;
 }
+navbar.scrolled {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color: white;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+    z-index: 1000;
+  }
+}
+.navbar-nav.active {
+    transform: translateY(0);
+  }
+
+  .navbar-nav a {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .navbar-extra {
+    display: flex;
+    align-items: center;
+  }
+
+.scrollToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.scrollToTop i {
+  font-size: 1.5rem;
+}
 .navbar .navbar-logo {
  position: absolute;
  top: 25%;
