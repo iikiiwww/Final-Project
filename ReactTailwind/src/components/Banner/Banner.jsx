@@ -20,8 +20,9 @@ const Banner = () => {
           {/* Text content */}
           <div className="flex flex-col justify-center gap-5 sm:pt-0">
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-700">Cashback 20%</h1>
+            <h2 className="text-2xl text-gray-700 tracking-wide leading-5">IQOO NEO 9</h2>
             <p className="text-2xl text-gray-700 tracking-wide leading-5">
-              Features 6.38″ display, Snapdragon 845 chipset, 4500 mAh battery, 128 GB storage, 8 GB RAM.
+              Features 6.38″ display, Snapdragon 845 chipset 4500 mAh battery | 128 GB storage, 8 GB RAM.
             </p>
             <div className="space-y-4">
               <div className="flex items-center gap-4">

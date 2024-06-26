@@ -2,8 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    
-    <div id="about" className="container"> 
+    <div id="about" className="container mt-10 mb-10">
         <div data-aos="fade-up" className="mx-auto py-10 px-12 bg-primary/40">
         {/* Bagian Header */}
         <h1 className="text-3xl font-bold mb-8 text-center">ABOUT</h1>
@@ -28,3 +27,4 @@ const About = () => {
 };
 
 export default About;
+
